@@ -1,0 +1,112 @@
+# ==========================================
+# TapConnect Comprehensive .gitignore
+# ==========================================
+
+# ------------------------------------------
+# OS & System Files
+# ------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ------------------------------------------
+# IDE & Text Editors
+# ------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.user
+*.iml
+.navigation/
+captures/
+
+# ------------------------------------------
+# Secrets, Configs, & Local Environments
+# ------------------------------------------
+.env
+.env.*
+!.env.example
+*.local
+local.properties
+secrets.properties
+
+# ------------------------------------------
+# Python (Backend / FastAPI)
+# ------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+pip-log.txt
+
+# Databases & Cache
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Packaging & Distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ------------------------------------------
+# Android & Gradle (App Frontend)
+# ------------------------------------------
+# Built metadata and outputs
+.gradle/
+/build/
+**/build/
+*.apk
+*.ap_
+*.aab
+
+# Native build outputs
+.cxx/
+.externalNativeBuild/
+
+# Signing files (Keystores for security)
+*.keystore
+*.jks
+*.pepk
+
+# ------------------------------------------
+# Miscellaneous
+# ------------------------------------------
+# Crashlytics instrumentation
+crashlytics-build.properties
