@@ -6,10 +6,12 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
+    // Production URL (Render):
+    private const val BASE_URL = "https://tap-connect-qni6.onrender.com/"
+    
     // Local Development URL Configurations:
     // - For Android Emulator: "http://10.0.2.2:8000/"
     // - For Physical Device (Wi-Fi): "http://192.168.0.101:8000/"
-    private const val BASE_URL = "http://192.168.0.101:8000/"
     
     // Retrieve token dynamically from secure persistent storage
     val currentToken: String?

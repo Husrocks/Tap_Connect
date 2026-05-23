@@ -30,7 +30,7 @@ class WebSocketManager private constructor() {
     val events: SharedFlow<WebSocketEvent> = _events
     
     // Replace with your local IP if testing on physical device
-    private val WS_BASE_URL = "ws://192.168.0.101:8000"
+    private val WS_BASE_URL = "https://tap-connect-qni6.onrender.com/"
 
     companion object {
         @Volatile
